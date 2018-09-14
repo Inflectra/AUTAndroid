@@ -1,6 +1,6 @@
 package com.inflectra.autandroid;
 
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,7 +13,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 
-public class MainActivity extends ActionBarActivity implements OnItemClickListener{
+public class MainActivity extends AppCompatActivity implements OnItemClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
