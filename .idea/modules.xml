@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AUTAndroid.iml" filepath="$PROJECT_DIR$/AUTAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/AUTAndroid/AUTAndroid-AUTAndroid.iml" filepath="$PROJECT_DIR$/AUTAndroid/AUTAndroid-AUTAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InflectraGitProjects-AUTAndroid.iml" filepath="$PROJECT_DIR$/InflectraGitProjects-AUTAndroid.iml" />
     </modules>
   </component>
 </project>
