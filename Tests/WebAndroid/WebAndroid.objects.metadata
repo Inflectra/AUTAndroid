@@ -1,0 +1,1023 @@
+{
+	"a": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "Log In",
+		"object_role": "-",
+		"object_class": "param:object_name",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Generic",
+		"object_name": "a",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"UserName": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "-",
+		"object_class": "input",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Text",
+		"object_name": "UserName",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"Password": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "-",
+		"object_class": "input",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Text",
+		"object_name": "Password",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"LogIn": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "-",
+		"object_class": "input",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Button",
+		"object_name": "LogIn",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"BookManagement": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "Book Management",
+		"object_role": "-",
+		"object_class": "a",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Link",
+		"object_name": "BookManagement",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"CreateNewBook": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "(Create new book)",
+		"object_role": "-",
+		"object_class": "a",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Link",
+		"object_name": "CreateNewBook",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"BookTitle": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "-",
+		"object_class": "input",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Text",
+		"object_name": "BookTitle",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"BookAuthor": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "-",
+		"object_class": "select",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "ComboBox",
+		"object_name": "BookAuthor",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"BookGenre": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "-",
+		"object_class": "select",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "ComboBox",
+		"object_name": "BookGenre",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"SubmitBook": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "-",
+		"object_class": "input",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Button",
+		"object_name": "SubmitBook",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"Logout": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "Log Out",
+		"object_role": "-",
+		"object_class": "a",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Link",
+		"object_name": "Logout",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"AddedBook": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoDoubleClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": ""
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_flavor",
+		"object_text": "newbook",
+		"object_role": "param:object_flavor",
+		"object_class": "td",
+		"version": 0,
+		"object_type": "MobileWebObject",
+		"object_flavor": "Mobile",
+		"object_name": "AddedBook",
+		"window_name": "Device",
+		"ignore_object_name": true
+	}
+}

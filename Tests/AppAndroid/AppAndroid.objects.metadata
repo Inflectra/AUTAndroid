@@ -1,0 +1,2398 @@
+{
+	"listViewContents": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			},
+			{
+				"name": "DoSelectItem",
+				"signature": "index"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ItemIndexByName",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "ItemCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.ListView",
+		"version": 0,
+		"object_type": "MobileListView",
+		"object_flavor": "ListView",
+		"object_name": "listViewContents",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"edit_message": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "Enter a message",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.EditText",
+		"version": 0,
+		"object_type": "AndroidEditBox",
+		"object_flavor": "Text",
+		"object_name": "edit_message",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"Send": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "Send",
+		"object_role": "param:object_flavor",
+		"object_class": "param:object_name",
+		"version": 0,
+		"object_type": "AndroidButton",
+		"object_flavor": "Button",
+		"object_name": "android.widget.Button",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"edit_username": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.EditText",
+		"version": 0,
+		"object_type": "AndroidEditBox",
+		"object_flavor": "Text",
+		"object_name": "edit_username",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"edit_password": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.EditText",
+		"version": 0,
+		"object_type": "AndroidEditBox",
+		"object_flavor": "Text",
+		"object_name": "edit_password",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"Login": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "param:object_name",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.Button",
+		"version": 0,
+		"object_type": "AndroidButton",
+		"object_flavor": "Button",
+		"object_name": "Login",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"label_status": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "User/pwd",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.TextView",
+		"version": 0,
+		"object_type": "AndroidLabel",
+		"object_flavor": "Label",
+		"object_name": "label_status",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"spinner_items": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			},
+			{
+				"name": "DoSelectItem",
+				"signature": "index"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "ItemIndexByName",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.Spinner",
+		"version": 0,
+		"object_type": "AndroidSpinner",
+		"object_flavor": "Picker",
+		"object_name": "spinner_items",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"label_selecteditem": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "Mercury",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.TextView",
+		"version": 0,
+		"object_type": "AndroidLabel",
+		"object_flavor": "Label",
+		"object_name": "label_selecteditem",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"checkBox1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			},
+			{
+				"name": "DoSetCheck",
+				"signature": "bcheck"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "Checked",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "param:object_flavor",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.CheckBox",
+		"version": 0,
+		"object_type": "AndroidCheckBox",
+		"object_flavor": "CheckBox",
+		"object_name": "checkBox1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"radio0": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			},
+			{
+				"name": "DoSetCheck",
+				"signature": "bcheck"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "Checked",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "RadioButton1",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.RadioButton",
+		"version": 0,
+		"object_type": "AndroidRadioButton",
+		"object_flavor": "Radio",
+		"object_name": "radio0",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"radio1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			},
+			{
+				"name": "DoSetCheck",
+				"signature": "bcheck"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "Checked",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "RadioButton2",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.RadioButton",
+		"version": 0,
+		"object_type": "AndroidRadioButton",
+		"object_flavor": "Radio",
+		"object_name": "radio1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"toggleButton1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			},
+			{
+				"name": "DoSetCheck",
+				"signature": "bcheck"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "Checked",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "OFF",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.ToggleButton",
+		"version": 0,
+		"object_type": "AndroidToggleButton",
+		"object_flavor": "CheckBox",
+		"object_name": "toggleButton1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"switch1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			},
+			{
+				"name": "DoSetCheck",
+				"signature": "bcheck"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "Checked",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "Switch OFF",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.Switch",
+		"version": 0,
+		"object_type": "AndroidSwitch",
+		"object_flavor": "CheckBox",
+		"object_name": "switch1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"progressBar1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.ProgressBar",
+		"version": 0,
+		"object_type": "AndroidProgressBar",
+		"object_flavor": "ProgressBar",
+		"object_name": "progressBar1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"seekBar1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.SeekBar",
+		"version": 0,
+		"object_type": "AndroidSeekBar",
+		"object_flavor": "ProgressBar",
+		"object_name": "seekBar1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"ratingBar1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "Value",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.RatingBar",
+		"version": 0,
+		"object_type": "AndroidRatingBar",
+		"object_flavor": "ProgressBar",
+		"object_name": "ratingBar1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"imageButton1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.ImageButton",
+		"version": 0,
+		"object_type": "AndroidImageButton",
+		"object_flavor": "Button",
+		"object_name": "imageButton1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"imageView1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.ImageView",
+		"version": 0,
+		"object_type": "AndroidImageView",
+		"object_flavor": "Image",
+		"object_name": "imageView1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"button1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "param:object_flavor",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.Button",
+		"version": 0,
+		"object_type": "AndroidButton",
+		"object_flavor": "Button",
+		"object_name": "button1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"autoCompleteTextView1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			},
+			{
+				"name": "DoSetText",
+				"signature": "/**String*/ value"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.EditText",
+		"version": 0,
+		"object_type": "AndroidEditBox",
+		"object_flavor": "Text",
+		"object_name": "autoCompleteTextView1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	},
+	"checkedTextView1": {
+		"actions": [
+			{
+				"name": "DoAction",
+				"signature": ""
+			},
+			{
+				"name": "DoClick",
+				"signature": ""
+			},
+			{
+				"name": "DoClear",
+				"signature": ""
+			},
+			{
+				"name": "DoSendKeys",
+				"signature": "/**String*/ keys"
+			},
+			{
+				"name": "DoEnsureVisible",
+				"signature": "/**String*/ text"
+			},
+			{
+				"name": "DoSetCheck",
+				"signature": "bcheck"
+			}
+		],
+		"properties": [
+			{
+				"name": "Name",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Class",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Text",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "X",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Y",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Width",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Height",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ObjectType",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "ChildAt",
+				"setsign": "",
+				"getsign": "index",
+				"readonly": true
+			},
+			{
+				"name": "ChildCount",
+				"setsign": "",
+				"getsign": "",
+				"readonly": true
+			},
+			{
+				"name": "Property",
+				"setsign": "",
+				"getsign": "name",
+				"readonly": true
+			},
+			{
+				"name": "Checked",
+				"setsign": "value",
+				"getsign": "",
+				"readonly": false
+			}
+		],
+		"items": null,
+		"window_text": "Device",
+		"window_class": "param:object_library",
+		"object_text": "CheckedTextView",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.CheckedTextView",
+		"version": 0,
+		"object_type": "AndroidCheckBox",
+		"object_flavor": "CheckBox",
+		"object_name": "checkedTextView1",
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"ignore_object_name": true
+	}
+}

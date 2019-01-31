@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="18" t="">
+  <ScriptPath>WebAndroid.js</ScriptPath>
+  <UserFunctionsPath>WebAndroid.user.js</UserFunctionsPath>
+  <ObjectsPath>WebAndroid.objects.js</ObjectsPath>
+  <ReportPath>WebAndroid.trp</ReportPath>
+  <CommandInterval>100</CommandInterval>
+  <IterationsCount>1</IterationsCount>
+  <StopOnError>false</StopOnError>
+  <CacheObjects>false</CacheObjects>
+  <ObjectLookupAttempts>5</ObjectLookupAttempts>
+  <ObjectLookupAttemptInterval>300</ObjectLookupAttemptInterval>
+  <ShowReport>true</ShowReport>
+  <BeautifySavedObjects>true</BeautifySavedObjects>
+  <SaveRecordingScreenshots>false</SaveRecordingScreenshots>
+  <SavePlaybackScreenshots>false</SavePlaybackScreenshots>
+  <SavePlaybackScreenshotsInTestReport>false</SavePlaybackScreenshotsInTestReport>
+  <SaveScreenshotObjectOnly>false</SaveScreenshotObjectOnly>
+  <SaveScreenshotsCaptureCursor>true</SaveScreenshotsCaptureCursor>
+  <CommandLine />
+  <EntryPoint>Test</EntryPoint>
+  <WorkDir>.</WorkDir>
+  <TestFiles>
+    <Name>Test</Name>
+    <IsFilterGroup>false</IsFilterGroup>
+    <FilterWildcard>*.*</FilterWildcard>
+    <FilterPath />
+    <Groups>
+      <TestGroup>
+        <Name>Reports</Name>
+        <IsFilterGroup>true</IsFilterGroup>
+        <FilterWildcard>*.trp</FilterWildcard>
+        <FilterPath>Reports</FilterPath>
+        <Groups />
+        <TestFiles />
+      </TestGroup>
+      <TestGroup>
+        <Name>Scripts</Name>
+        <IsFilterGroup>false</IsFilterGroup>
+        <FilterWildcard>*.*</FilterWildcard>
+        <FilterPath />
+        <Groups />
+        <TestFiles>
+          <TestFile>
+            <Path>WebAndroid.js</Path>
+          </TestFile>
+          <TestFile>
+            <Path>WebAndroid.objects.js</Path>
+          </TestFile>
+          <TestFile>
+            <Path>WebAndroid.user.js</Path>
+          </TestFile>
+        </TestFiles>
+      </TestGroup>
+    </Groups>
+    <TestFiles />
+  </TestFiles>
+  <CustomStrings />
+  <TestParams>
+    <TestParam name="Mobile Profile" variable="g_mobileProfile" defaultValue="Android Browser Simulator" description="Please, specify mobile profile to use" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+  </TestParams>
+  <Methodology>Mobile</Methodology>
+  <MethodologyOptions>
+    <ArrayOfObjectParam />
+  </MethodologyOptions>
+</Test>
