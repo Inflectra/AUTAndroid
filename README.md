@@ -1,6 +1,10 @@
 # AUTAndroid
 
-Sample Android Application
+Sample Android Application.
+
+Binary Download
+
+[AUTAndroid-debug.apk](AUTAndroid-debug.apk)
 
 ## Sample Tests
 
