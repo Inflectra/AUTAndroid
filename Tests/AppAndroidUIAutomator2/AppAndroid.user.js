@@ -126,4 +126,23 @@ function TestViews()
 	Android.DoPressBack();	
 }
 
+function AssertName(obj, name)
+{
+	Tester.AssertEqual(name, obj.GetText(), name);
+}
+
+function TestSiblings()
+{
+	var obj = SeS('Buttons')
+	
+	AssertName(obj, "Buttons");
+	AssertName(obj.GetNextSibling(), "Bars");
+	AssertName(obj.GetNextSibling().GetNextSibling(), "Views");
+	AssertName(obj.GetPrevSibling(), "DropDownSelect");
+	AssertName(obj.GetPrevSibling().GetPrevSibling(), "Login");
+	AssertName(obj.GetNextSibling().GetPrevSibling(), "Buttons");
+	Tester.AssertEqual("ListView", obj.GetParent().GetClass(), "android.widget.ListView");
+	
+	AssertName(obj.DoFindByXPath("/following-sibling::*[1]"), "Bars");
+}
 

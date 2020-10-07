@@ -568,5 +568,31 @@ var saved_script_objects={
 		"object_library": "Mobile",
 		"window_name": "Views",
 		"ignore_object_name": true
+	},
+	"Buttons": {
+		"locations": [
+			{
+				"locator_name": "Mobile",
+				"location": {
+					"xpath": "param:xpath",
+					"css": "",
+					"id": "",
+					"ios": "",
+					"acc": ""
+				}
+			}
+		],
+		"window_class": "param:object_library",
+		"object_text": "Buttons",
+		"object_role": "param:object_flavor",
+		"object_class": "android.widget.TextView",
+		"version": 0,
+		"object_type": "AndroidLabel",
+		"object_flavor": "Label",
+		"object_name": "text1",
+		"ignore_object_name": true,
+		"object_library": "Mobile",
+		"window_name": "Device",
+		"xpath": "//android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.TextView[3]"
 	}
 };

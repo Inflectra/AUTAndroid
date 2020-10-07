@@ -10,9 +10,10 @@ function Test()
 	TestListView();
 	
 	TestSpinner();
-	TestButtons();	
+	TestButtons();
 	TestBars();
-	TestViews();	
+	TestViews();
+	TestSiblings();
 
 	Global.DoSleep(3000);
 }
