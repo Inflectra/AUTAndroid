@@ -1,21 +1,25 @@
 
 function Test()
 {
-	if (!SeSConnectMobile())
-	{
-		return;
-	}
-	
-	TestLogin();	
-	TestListView();
-	
-	TestSpinner();
-	TestButtons();
-	TestBars();
-	TestViews();
-	TestSiblings();
+	RVL.DoPlayScript("AppAndroid.rvl.xlsx", Tester.GetParam("sheetName", "RVL"));
+}
 
-	Global.DoSleep(3000);
+function TestPrepare()
+{
+	AppiumDriver.ReconnectSession(true);
+}
+
+function TestFinish()
+{
+	if(Tester.GetTestStatus() != Tester.Pass)
+	{
+		Android.DoScreenshot();
+	}
+
+	if (g_entryPointName == "Test")
+	{
+		AppiumDriver.Close();
+	}
 }
 
 g_load_libraries=["Mobile"];

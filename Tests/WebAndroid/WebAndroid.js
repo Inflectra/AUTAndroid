@@ -1,24 +1,25 @@
 
 function Test()
 {
-	Android.DoStartVideoRecording();
-    
-	if (!SeSConnectMobile())
+	RVL.DoPlayScript("WebAndroid.rvl.xlsx", Tester.GetParam("sheetName", "RVL"));
+}
+
+function TestPrepare()
+{
+	AppiumDriver.ReconnectSession(true);
+}
+
+function TestFinish()
+{
+	if(Tester.GetTestStatus() != Tester.Pass)
 	{
-		return;
+		Android.DoScreenshot();
 	}
 
-	Android.DoGoToUrl("http://www.libraryinformationsystem.org");
-
-	Global.DoSleep(3000);
-	
-	Android.DoScreenshot();
-	
-	TestCreateNewBook();
-	
-	Global.DoSleep(3000);    
-	
-	Android.DoStopVideoRecording();	
+	if (g_entryPointName == "Test")
+	{
+		AppiumDriver.Close();
+	}
 }
 
 g_load_libraries=["Mobile"];
