@@ -18,7 +18,7 @@ function TestFinish()
 
 	if (g_entryPointName == "Test")
 	{
-		AppiumDriver.Close();
+		AppiumDriver.Quit();
 	}
 }
 
