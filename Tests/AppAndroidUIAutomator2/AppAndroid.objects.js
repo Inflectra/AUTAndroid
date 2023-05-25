@@ -528,6 +528,16 @@ var saved_script_objects={
 					"ios": "",
 					"acc": ""
 				}
+			},
+			{
+				"locator_name": "Mobile",
+				"location": {
+					"xpath": "//android.widget.AutoCompleteTextView",
+					"css": "",
+					"id": "",
+					"ios": "",
+					"acc": ""
+				}
 			}
 		],
 		"window_text": "Device",

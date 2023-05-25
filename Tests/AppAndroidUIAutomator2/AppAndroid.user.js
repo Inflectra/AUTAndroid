@@ -1,5 +1,10 @@
 //Put your custom functions and variables in this file
 
+function DoDebug()
+{
+	SeS('autoCompleteTextView1').DoSetText('Italy');
+}
+
 function TestListView()
 {
 	Tester.Message("LIST VIEW");
@@ -33,13 +38,21 @@ function TestLogin()
 	SeS('edit_password').DoSendKeys('pwd');
 	SeS('Login').DoClick();
 	Tester.AssertEqual("Login successfull", SeS('label_status').GetText(), "User/pwd");
+	
+	// Clicks with offset
+	SeS('edit_username').DoClick(50, 10);
+	SeS('edit_username').DoClick(50);
+	SeS('edit_username').DoClick();
+	SeS('edit_username').DoClick(0.1, 0.5);
+	
 	Android.DoPressBack();
-	//Android.DoPressBack();
+	Android.DoPressBack();
+	/*
 	var devName = Android.GetCapability("deviceName");
 	if (devName != "Android Emulator")
 	{
 		Android.DoPressBack();
-	}
+	}*/
 	Global.DoSleep(3000);
 }
 
