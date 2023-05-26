@@ -7,6 +7,10 @@ function Test()
 function TestPrepare()
 {
 	AppiumDriver.ReconnectSession(true);
+	if (g_entryPointName == "Test")
+	{
+		AppiumDriver.StartRecordingScreen();
+	}
 }
 
 function TestFinish()
@@ -18,6 +22,7 @@ function TestFinish()
 
 	if (g_entryPointName == "Test")
 	{
+		AppiumDriver.StopRecordingScreen();
 		AppiumDriver.Quit();
 	}
 }
