@@ -31,13 +31,16 @@ function TestListView()
 
 function TestLogin()
 {
-	var listView = SeS('listViewContents');	
+	var listView = SeS('listViewContents');
+	Android.DoScreenshot();
 	listView.DoSelectItem(listView.GetItemIndexByName('Login'));
 	Tester.Message("LOGIN");
 	SeS('edit_username').DoSendKeys('User');
 	SeS('edit_password').DoSendKeys('pwd');
+	Android.DoScreenshot("Before login");
 	SeS('Login').DoClick();
 	Tester.AssertEqual("Login successfull", SeS('label_status').GetText(), "User/pwd");
+	Android.DoScreenshot("After login");
 	
 	// Clicks with offset
 	SeS('edit_username').DoClick(50, 10);
