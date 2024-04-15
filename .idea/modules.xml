@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AUTAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/AUTAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AUTAndroid.iml" filepath="$PROJECT_DIR$/.idea/AUTAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AUTAndroid/AUTAndroid.AUTAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/AUTAndroid/AUTAndroid.AUTAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AUTAndroid/AUTAndroid.AUTAndroid.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AUTAndroid/AUTAndroid.AUTAndroid.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AUTAndroid/AUTAndroid.AUTAndroid.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AUTAndroid/AUTAndroid.AUTAndroid.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AUTAndroid/AUTAndroid.AUTAndroid.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/AUTAndroid/AUTAndroid.AUTAndroid.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/InflectraGitProjects-AUTAndroid.iml" filepath="$PROJECT_DIR$/InflectraGitProjects-AUTAndroid.iml" />
     </modules>
   </component>
 </project>
