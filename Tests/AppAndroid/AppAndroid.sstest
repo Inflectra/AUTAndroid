@@ -63,7 +63,7 @@
     </TestFiles>
   </TestFiles>
   <TestParams>
-    <TestParam name="Mobile Profile" variable="g_mobileProfile" defaultValue="W 13" description="Please, specify mobile profile to use" output="false" ask="false">
+    <TestParam name="Mobile Profile" variable="g_mobileProfile" defaultValue="M 14" description="Please, specify mobile profile to use" output="false" ask="false">
       <PossibleValues />
     </TestParam>
     <TestParam name="RVL Script" variable="g_rvlScriptPath" defaultValue="AppAndroid.rvl.xlsx" description="Main RVL Script to execute" output="false" ask="false">
