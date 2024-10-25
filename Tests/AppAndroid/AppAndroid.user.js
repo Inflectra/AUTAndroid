@@ -34,7 +34,6 @@ function TestLogin()
 	SeS('Login').DoClick();
 	Tester.AssertEqual("Login successfull", SeS('label_status').GetText(), "User/pwd");
 	Android.DoPressBack();
-	Android.DoPressBack();
 	var devName = Android.GetCapability("deviceName");
 	if (devName != "Android Emulator")
 	{

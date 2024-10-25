@@ -4,7 +4,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]",
+					"xpath": "//android.widget.ListView",
 					"css": "",
 					"id": ""
 				}
@@ -158,7 +158,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[3]",
+					"xpath": "//android.widget.TextView[3]",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -184,7 +184,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.Spinner[1]",
+					"xpath": "//android.widget.Spinner",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -210,7 +210,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+					"xpath": "//android.widget.TextView[2]",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -236,7 +236,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.CheckBox[1]",
+					"xpath": "//android.widget.CheckBox",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -262,7 +262,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[1]",
+					"xpath": "//android.widget.RadioButton[1]",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -288,7 +288,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]",
+					"xpath": "//android.widget.RadioButton[2]",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -314,7 +314,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ToggleButton[1]",
+					"xpath": "//android.widget.ToggleButton",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -340,7 +340,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.Switch[1]",
+					"xpath": "//android.widget.Switch",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -366,7 +366,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ProgressBar[1]",
+					"xpath": "//android.widget.ProgressBar",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -392,7 +392,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.SeekBar[1]",
+					"xpath": "//android.widget.SeekBar",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -418,7 +418,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.RatingBar[1]",
+					"xpath": "//android.widget.RatingBar",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -444,7 +444,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ImageButton[1]",
+					"xpath": "//android.widget.ImageButton",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -470,7 +470,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]",
+					"xpath": "//android.widget.ImageView",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -496,7 +496,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.Button[1]",
+					"xpath": "//android.widget.Button",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -522,7 +522,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.EditText[1]",
+					"xpath": "//android.widget.AutoCompleteTextView",
 					"css": "",
 					"id": "",
 					"ios": "",
@@ -548,7 +548,7 @@ var saved_script_objects={
 			{
 				"locator_name": "Mobile",
 				"location": {
-					"xpath": "//android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.CheckedTextView[1]",
+					"xpath": "//android.widget.CheckedTextView",
 					"css": "",
 					"id": "",
 					"ios": "",

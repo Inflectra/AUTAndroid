@@ -24,7 +24,6 @@
   <WorkDir>.</WorkDir>
   <TestFiles>
     <Name>Test</Name>
-    <RealFolder>false</RealFolder>
     <IsFilterGroup>false</IsFilterGroup>
     <FilterWildcard>*.*</FilterWildcard>
     <FilterPath />
@@ -40,7 +39,6 @@
       </TestGroup>
       <TestGroup>
         <Name>Scripts</Name>
-        <RealFolder>false</RealFolder>
         <IsFilterGroup>false</IsFilterGroup>
         <FilterWildcard>*.*</FilterWildcard>
         <FilterPath />
@@ -68,7 +66,7 @@
     </TestFiles>
   </TestFiles>
   <TestParams>
-    <TestParam name="Mobile Profile" variable="g_mobileProfile" defaultValue="Android Browser Simulator" description="Please, specify mobile profile to use" output="false" ask="false">
+    <TestParam name="Mobile Profile" variable="g_mobileProfile" defaultValue=" W 14" description="Please, specify mobile profile to use" output="false" ask="false">
       <PossibleValues />
     </TestParam>
     <TestParam name="RVL Script" variable="g_rvlScriptPath" defaultValue="WebAndroid.rvl.xlsx" description="Main RVL Script to execute" output="false" ask="false">

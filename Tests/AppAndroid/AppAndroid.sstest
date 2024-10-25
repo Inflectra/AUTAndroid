@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="18" t="">
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="19" id="DKVR7NJB" t="">
   <ScriptPath>AppAndroid.js</ScriptPath>
   <UserFunctionsPath>AppAndroid.user.js</UserFunctionsPath>
   <ObjectsPath>AppAndroid.objects.js</ObjectsPath>
@@ -11,12 +11,14 @@
   <ObjectLookupAttempts>5</ObjectLookupAttempts>
   <ObjectLookupAttemptInterval>300</ObjectLookupAttemptInterval>
   <ShowReport>true</ShowReport>
+  <JSEngineType>Default</JSEngineType>
   <BeautifySavedObjects>true</BeautifySavedObjects>
   <SaveRecordingScreenshots>false</SaveRecordingScreenshots>
   <SavePlaybackScreenshots>false</SavePlaybackScreenshots>
   <SavePlaybackScreenshotsInTestReport>false</SavePlaybackScreenshotsInTestReport>
   <SaveScreenshotObjectOnly>false</SaveScreenshotObjectOnly>
   <SaveScreenshotsCaptureCursor>true</SaveScreenshotsCaptureCursor>
+  <SaveScreenshotOnFailure>true</SaveScreenshotOnFailure>
   <CommandLine />
   <EntryPoint>Test</EntryPoint>
   <WorkDir>.</WorkDir>
@@ -28,6 +30,7 @@
     <Groups>
       <TestGroup>
         <Name>Reports</Name>
+        <RealFolder>true</RealFolder>
         <IsFilterGroup>true</IsFilterGroup>
         <FilterWildcard>*.trp</FilterWildcard>
         <FilterPath>Reports</FilterPath>
@@ -53,16 +56,19 @@
         </TestFiles>
       </TestGroup>
     </Groups>
-    <TestFiles />
+    <TestFiles>
+      <TestFile>
+        <Path>AppAndroid.rvl.xlsx</Path>
+      </TestFile>
+    </TestFiles>
   </TestFiles>
-  <CustomStrings />
   <TestParams>
-    <TestParam name="Mobile Profile" variable="g_mobileProfile" defaultValue="Android App Simulator" description="Please, specify mobile profile to use" output="false" ask="false">
+    <TestParam name="Mobile Profile" variable="g_mobileProfile" defaultValue="W 13" description="Please, specify mobile profile to use" output="false" ask="false">
+      <PossibleValues />
+    </TestParam>
+    <TestParam name="RVL Script" variable="g_rvlScriptPath" defaultValue="AppAndroid.rvl.xlsx" description="Main RVL Script to execute" output="false" ask="false">
       <PossibleValues />
     </TestParam>
   </TestParams>
   <Methodology>Mobile</Methodology>
-  <MethodologyOptions>
-    <ArrayOfObjectParam />
-  </MethodologyOptions>
 </Test>
